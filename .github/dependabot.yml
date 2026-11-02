@@ -1,0 +1,8 @@
+# Avisa (con una propuesta de cambio) cuando sale una versión nueva de las
+# acciones que usa el workflow, que van fijadas a un commit exacto.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
